@@ -3,7 +3,7 @@ import threading
 import time
 
 from src.producer import enqueue_job
-from src.worker import run_worker_loop
+from src.worker import run_redis_worker_loop as run_worker_loop
 from src.sweeper import run_sweeper_loop
 
 
